@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:#387478;
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.box{
+    height: 450px;
+    width:350px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size:3.5rem;
+    color:black;
+    background-color: aliceblue;
+}
+#reset{
+   
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.hide{
+    display: none;
+}
+
+#winner-msg{
+    font-size: 2.5rem;
+}
+#new-game{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+}
+#tie{
+    font-size: 2rem;
+}
